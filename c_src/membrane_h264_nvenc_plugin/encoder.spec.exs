@@ -1,9 +1,9 @@
-module Membrane.H264.FFmpeg.Encoder.Native
+module Membrane.H264.Nvenc.Encoder.Native
 
 state_type "State"
 
 type(
-  ffmpeg_param :: %Membrane.H264.FFmpeg.Encoder.FFmpegParam{
+  ffmpeg_param :: %Membrane.H264.Nvenc.Encoder.FFmpegParam{
     key: string,
     value: string
   }
