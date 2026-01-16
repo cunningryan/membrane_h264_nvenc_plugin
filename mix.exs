@@ -39,19 +39,19 @@ defmodule Membrane.H264.Nvenc.Plugin.MixProject do
   defp deps do
     [
       {:bunch, "~> 1.6"},
-      {:bundlex, "~> 1.3"},
-      {:unifex, "~> 1.1"},
-      {:membrane_precompiled_dependency_provider, "~> 0.1.0"},
+      {:bundlex, "~> 1.5"},
+      {:unifex, "~> 1.2"},
+      {:membrane_precompiled_dependency_provider, "~> 0.2.1"},
       {:membrane_core, "~> 1.0"},
       {:membrane_common_c, "~> 0.16.0"},
       {:membrane_h264_format, "~> 0.6.1"},
-      {:membrane_raw_video_format, "~> 0.3.0"},
+      {:membrane_raw_video_format, "~> 0.4.1"},
       {:ex_doc, "~> 0.29", only: :dev, runtime: false},
-      {:credo, "~> 1.6", only: :dev, runtime: false},
-      {:dialyxir, "~> 1.1", only: :dev, runtime: false},
+      {:credo, "~> 1.7", only: :dev, runtime: false},
+      {:dialyxir, "~> 1.4", only: :dev, runtime: false},
       {:membrane_raw_video_parser_plugin, "~> 0.12.2", only: :test},
       {:membrane_file_plugin, "~> 0.17.0", only: :test},
-      {:membrane_h264_plugin, "~> 0.9.0", only: :test}
+      {:membrane_h26x_plugin, "~> 0.10.0", only: :test}
     ]
   end
 
