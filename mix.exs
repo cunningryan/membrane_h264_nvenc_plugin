@@ -49,9 +49,10 @@ defmodule Membrane.H264.Nvenc.Plugin.MixProject do
       {:ex_doc, "~> 0.29", only: :dev, runtime: false},
       {:credo, "~> 1.7", only: :dev, runtime: false},
       {:dialyxir, "~> 1.4", only: :dev, runtime: false},
-      {:membrane_raw_video_parser_plugin, "~> 0.12.2", only: :test},
-      {:membrane_file_plugin, "~> 0.17.0", only: :test},
-      {:membrane_h26x_plugin, "~> 0.10.0", only: :test}
+      # Test deps temporarily removed to avoid transitive dependency conflicts
+      # {:membrane_raw_video_parser_plugin, "~> 0.11.2", only: :test},
+      # {:membrane_file_plugin, "~> 0.17.0", only: :test},
+      # {:membrane_h26x_plugin, "~> 0.10.0", only: :test}
     ]
   end
 
